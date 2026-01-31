@@ -27,6 +27,10 @@ A Python-based tool designed to calculate a user's **Body Mass Index (BMI)** and
 ### 🏃 How to Run
 
 1. Clone the repository:
-   ```bash
    git clone [https://github.com/AdityaDev-arch/OIBSIP.git](https://github.com/AdityaDev-arch/OIBSIP.git)
-   ```
+
+2. Navigate to the task folder:
+    cd Task1
+
+3.  Run the script:
+    python bmi_calculator.py
