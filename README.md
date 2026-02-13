@@ -30,7 +30,36 @@ A Python-based tool designed to calculate a user's **Body Mass Index (BMI)** and
    git clone [https://github.com/AdityaDev-arch/OIBSIP.git](https://github.com/AdityaDev-arch/OIBSIP.git)
 
 2. Navigate to the task folder:
-    cd Task1
+   cd Task1
 
-3.  Run the script:
-    python bmi_calculator.py
+3. Run the script:
+   python bmi_calculator.py
+
+---
+
+## 🔐 Task 2: Random Password Generator
+
+### Project Description
+
+A versatile command-line tool that generates secure and random passwords. This project allows users to customize their password's strength by choosing specific lengths and selecting which character types (letters, numbers, or symbols) to include.
+
+### ✨ Key Features
+
+- **Customizable Complexity:** Users can toggle letters, numbers, and symbols on or off based on their security needs.
+- **Input Validation Loop:** Includes a robust `while` loop to handle user preferences, ensuring only 'y' or 'n' responses are accepted.
+- **Error Handling:** Prevents crashes by validating numerical input for length and ensuring at least one character set is selected before generation.
+- **Clean User Interface:** Provides clear feedback and formatted output for a better user experience.
+
+### 🛠️ Technical Concepts Used
+
+- **Standard Libraries:** Utilized `random` for unpredictable character selection and `string` for secure character set management.
+- **Modular Logic:** Implemented helper functions to keep the code "DRY" (Don't Repeat Yourself).
+- **Control Flow:** Used generator expressions and the `.join()` method to build strings efficiently.
+
+### 🏃 How to Run
+
+1. Navigate to the task folder:
+   cd Task2
+
+2. Run the script:
+   python password_generator.py
