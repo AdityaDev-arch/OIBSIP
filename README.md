@@ -63,3 +63,32 @@ A versatile command-line tool that generates secure and random passwords. This p
 
 2. Run the script:
    python password_generator.py
+
+---
+
+## ☁️ Task 3: Basic Weather App
+
+### Project Description
+
+A real-time weather application that fetches data from the **OpenWeatherMap API**. Users can enter any city name to retrieve current weather statistics, including temperature, humidity, and general weather conditions.
+
+### ✨ Key Features
+
+- **Live API Integration:** Connects to external servers to provide real-time, accurate global weather data.
+- **Smart Error Handling:** Specifically manages connection issues and cases where a city name might be misspelled or not found.
+- **Data Parsing:** Demonstrates the ability to process JSON responses from web services into a user-friendly format.
+- **Unit Conversion:** Displays temperature in Celsius for easy reading.
+
+### 🛠️ Technical Concepts Used
+
+- **External Libraries:** Used the `requests` library for HTTP communication.
+- **JSON Manipulation:** Navigated complex dictionary structures to extract specific data points.
+- **User-Centric Design:** Focused on friendly, conversational feedback for a "human" feel.
+
+### 🏃 How to Run
+
+1. Navigate to the task folder:
+   cd Task3
+
+2. Run the script:
+   python weather_app.py
